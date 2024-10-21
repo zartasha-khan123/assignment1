@@ -1,6 +1,6 @@
 "use client"
 import React, { useState,useEffect} from 'react';
-import Navbar from '../navbar/page';
+
 import { useRouter } from 'next/navigation';
 import ThankYou from '../thankyou';
 import Link from 'next/link';
@@ -40,7 +40,7 @@ router.push('/thanku');
 
   return (
 
-    <><Navbar /><div className="min-h-screen bg-brown-200 flex items-center justify-center">
+    <><div className="min-h-screen bg-brown-200 flex items-center justify-center">
 
 
     <div className="container mx-auto p-5">

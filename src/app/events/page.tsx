@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import { FaInstagram } from 'react-icons/fa';
-import Navbar from '../navbar/page';
+
 import { useState } from 'react';
 import Image from 'next/image';
 
@@ -45,7 +45,7 @@ function BookEvent() {
       
   return (
     <div>
-        <Navbar/>
+   
       <h1 className='font-semibold text-5xl text-center text-stone-50 mt-10 mb-5 '>Book an Event</h1>
       <p className='font-serif text-black font-medium mb-10 text-center'>
       Book an ice cream cake in advance for your celebration! ❤️

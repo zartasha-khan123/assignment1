@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image'
-import Navbar from '../navbar/page'
+
 
 async function About() 
 
@@ -12,7 +12,7 @@ async function About()
 
 
         return ( <>
-        <Navbar/>
+    
      
         <Link href="/home"><h1 className="font-bold bg-blue-300 flex justify-center align-center mt-9">ABOUT US</h1></Link>
               <p className="font-bold text-2xl pt-6 pl-3">Gelato (Italian for “frozen”) is handmade from whole milk, sugar, and other flavourings, typically fruit, chocolate, and nuts. It uses high-quality fresh ingredients. These ingredients slowly incorporate air as they are frozen, 

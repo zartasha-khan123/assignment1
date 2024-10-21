@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import Navbar from '../navbar/page';
+
 
 
 
@@ -21,7 +21,7 @@ import Navbar from '../navbar/page';
   };
 
   return (<>
-    <Navbar/>
+  
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <form 
         onSubmit={handleSubmit} 

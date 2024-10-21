@@ -1,11 +1,11 @@
 import Link from "next/link";
-import Navbar from "../navbar/page";
+
 
 
 export default function Feedback() {
     return (
 <>
-        <Navbar/>
+        
       <div className="container mx-auto p-5">
         <h1 className="text-3xl font-bold text-center">Feedback Page</h1>
         <p className="font-serif font-black">Your feedback is valuable to us!</p>
