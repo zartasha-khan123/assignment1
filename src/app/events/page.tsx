@@ -3,6 +3,7 @@ import React from 'react'
 import { FaInstagram } from 'react-icons/fa';
 import Navbar from '../navbar/page';
 import { useState } from 'react';
+import Image from 'next/image';
 
 
 
@@ -13,7 +14,7 @@ function BookEvent() {
         {
           name: "Chocolate Delight",
           description: "Rich chocolate ice cream with a creamy texture.",
-          imgSrc: "/images/images (7).jpeg", // Add your image path here
+          imgSrc: "/images/images (7).jpeg", 
         },
         {
           name: "Vanilla Dream",
@@ -82,11 +83,12 @@ Book a Wedding, Party, or Event! Book a Team/Client Appreciation Event ... Our v
       <div className="relative w-full max-w-2xl p-6 bg-green-300 rounded-lg shadow-lg">
   
         <div className="relative overflow-hidden rounded-lg">
-          <img
+          < Image
             src={iceCreams[currentIndex].imgSrc}
             alt={iceCreams[currentIndex].name}
             className="w-full h-64 object-cover transition-transform duration-500 ease-in-out"
             key={iceCreams[currentIndex].imgSrc}
+            width={200} height={200}
           />
         </div>
 

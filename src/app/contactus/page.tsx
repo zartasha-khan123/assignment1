@@ -17,9 +17,9 @@ export default function Contact() {
 
   useEffect(()=>{
     setMounted(true);
-  })
+  },[])
 
-  const handleChange = (e: { target: { name: any; value: any; }; }) => {
+  const handleChange = (e: { target: { name: string; value: string; }; }) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value,
@@ -30,7 +30,7 @@ export default function Contact() {
     e.preventDefault();
     if(mounted){
         console.log('Form submitted:', formData);
-    // Here you can integrate backend logic to handle form submission
+    
   
 router.push('/thanku');
 

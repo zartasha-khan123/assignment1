@@ -31,9 +31,9 @@ function Herosection() {
      Each scoop is a burst of flavor, evoking joy and nostalgia with every bite. 
      Whether enjoyed on a hot summer day or as a sweet ending to a meal,
       ice cream brings people together and creates cherished memories. 
-      It’s not just a dessert; it’s a celebration of taste and happiness!</p>
+      Its not just a dessert; its a celebration of taste and happiness!</p>
 
-      <button className='bg-red-800 "text-orange-100 font-serif mt-10 py-2 px-4 rounded ml-40  hover:bg-yellow-300 active:bg-yellow-800'>MENU</button>
+      <button className='bg-red-800 text-orange-100 font-serif mt-10 py-2 px-4 rounded ml-40  hover:bg-yellow-300 active:bg-yellow-800'>MENU</button>
 </div>
 </div>
 <div  className='flex justify-center items-center mt-14 '>
@@ -48,11 +48,13 @@ function Herosection() {
       <div className="flex items-center space-x-8">
       
         <div className="w-1/2">
-          <img
+          <Image
             src="/images/images3.webp"
             alt="Description"
             className="w-full h-auto object-cover rounded-lg"
+            width={200} height={200}
           />
+           
         </div>
 
         <div className="w-1/2">
@@ -64,7 +66,7 @@ function Herosection() {
           Located in a charming neighborhood, the shop offers a delightful range of handcrafted 
           ice creams made from the finest ingredients. Each flavor is carefully curated,
           ensuring a perfect balance of taste and texture. From classic favorites like vanilla
-          and chocolate to unique flavors like pistachio rose and mango chili, there's something
+          and chocolate to unique flavors like pistachio rose and mango chili, there something
              for every ice cream lover.
 
 
