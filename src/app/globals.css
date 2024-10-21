@@ -17,3 +17,15 @@
 body {
   background-color: rgb(202, 131, 37)
  ;}
+
+ @media (max-width: 768px) {
+  .text-5xl {
+    font-size: 3rem; /* Adjust size for smaller screens */
+  }
+
+  .text-9xl {
+    font-size: 6rem; /* Adjust size for smaller screens */
+  }
+
+  /* More styles as needed */
+}

@@ -3,24 +3,22 @@ import React from 'react'
 
 function Footer() {
   return (
-   
-          <footer className="bg-gray-800 text-white py-6 fixed bottom-0 w-full">
-            <div className="container mx-auto flex justify-between items-center px-4">
-              <p className="text-sm">&copy; 2024 ZARTASH IMRAN! All Rights Reserved.</p>
-              <div className="flex space-x-4">
-                <Link href="/support" className="text-gray-400 hover:text-white">
-                  support
-                </Link>
-                <Link href="/feedback" className="text-gray-400 hover:text-white">
-                  FeedBack</Link>
-                
-                <Link href="/contactus" className="text-gray-400 hover:text-white">
-                  Contact
-                  </Link>
-            
-              </div>
-            </div>
-          </footer>
+    <footer className="bg-gray-800 text-white py-6 mt-auto">
+    <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center px-4">
+      <p className="text-sm text-center sm:text-left">&copy; 2024 ZARTASH IMRAN! All Rights Reserved.</p>
+      <div className="flex space-x-4 mt-4 sm:mt-0">
+        <Link href="/support" className="text-gray-400 hover:text-white">
+          Support
+        </Link>
+        <Link href="/feedback" className="text-gray-400 hover:text-white">
+          Feedback
+        </Link>
+        <Link href="/contactus" className="text-gray-400 hover:text-white">
+          Contact
+        </Link>
+      </div>
+    </div>
+  </footer>
         );
       };
       
