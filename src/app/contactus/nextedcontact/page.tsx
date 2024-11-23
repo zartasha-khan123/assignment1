@@ -1,10 +1,6 @@
 'use client'
-
-
 import React from 'react'
 import { useState } from 'react';
-
-  
 
 const iceCreamFlavors = [
   { name: 'Vanilla', description: 'Classic vanilla ice cream.' },
@@ -20,7 +16,7 @@ export default function NestedContact() {
     return (
 
 <div>
-  <div className="container mx-auto p-5 mt-16">
+  <div className="container mx-auto p-5 mt-16 " id="data">
     <h1 className="text-3xl font-bold text-center mb-5 animate-pulse">Ice Cream Map</h1>
 
     
@@ -31,7 +27,7 @@ export default function NestedContact() {
           className="bg-white shadow-lg rounded-lg p-4 hover:shadow-xl transition-shadow"
         >
           <h2 className="text-xl font-semibold">{flavor.name}</h2>
-          <button
+         <button
             className="mt-2 bg-green-500 text-white py-2 px-4 rounded"
             onClick={() => setSelectedFlavor(flavor.description)}
           >
